@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-image: url('./images/moon.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 5px solid yellow; */
+}
+h1{
+    font-size: 4rem;
+    /* border: 2px solid red ; */
+    margin-top: -10px;
+}
+.countdown-container{
+    /* border: 2px solid green; */
+    display: flex;
+    /* flex-direction: column; */
+
+}
+
+.big-text{
+    /* border: 1px solid pink; */
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+.c-all{
+    text-align: center;
+}
+
+.c-all span{
+    font-size: 1.5rem;
+}
+
